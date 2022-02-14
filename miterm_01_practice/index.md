@@ -57,7 +57,7 @@ weight: 1
 
 >  - a. $129_{10} = (10000001)_{2}$
 >  - b. $0011010_{2} = (26)_{10}$
->  - c. $0F100_{16} = (0000 1111 0001 0000 0000)_{2}$
+>  - c. $0F100_{16} = (00001111000100000000)_{2}$
 >  - d. $1001101101101_{2} = (136D)_{16}$
 
 2) (5 pts) Draw the NAND(x,y) gate CMOS transistor circuit. Show the conduction path and output value when: 
