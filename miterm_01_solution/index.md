@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: "Midterm 01 Solutions"
 date: 2022-02-18
 type: book
