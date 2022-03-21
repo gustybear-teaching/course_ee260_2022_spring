@@ -109,7 +109,7 @@ endmodule
 > | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2022_spring/main/miterm_02_practice/images/solution_5.png" width=400 >}} |
 > | -- |
 
-5) (5 pts) Trace the behavior of an 8-bit parallel load register with 8-bit input I, 8-bit output Q, load control input ld, and synchronous clear input clr by completing the timing diagram in Figure below.
+5) (5 pts) Trace the behavior of an 8-bit parallel load register with 8-bit input I, 8-bit output Q, load control input ld, and synchronous clear input clr by completing the timing diagram in the figure below.
 
 > | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2022_spring/main/miterm_02_practice/images/solution_6.png" width=400 >}} |
 > | -- |
@@ -134,14 +134,12 @@ endmodule
 8) (5 pts) You are asked to design a comparator for three-bit 2’s complement numbers. A[0:2] and B[0:2] are both 2’s complement numbers with A2 and B2 being the MSBs. If A < B then LT should be 1 and the other outputs 0. If A > B then GT should be 1 and every other output 0. If A=B then EQ should be 1 and every other output 0.  
 
 - a.	List the following 3-bit 2’s complement numbers in order from smallest to largest: 111, 101, 011, 010, 100.
-- b.	Write the logic equations for LT, EQ and GT. Be sure to circle your final answer. Be sure you have also circled any intermediate values (nodes) you are using in your final answer.
-
+- b.	Write the logic equations for LT, EQ and GT. 
 
 > | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2022_spring/main/miterm_02_practice/images/problem_9.png" width=400 >}} |
 > | -- |
 
 > - a. 100(-4), 101(-3), 111(-1), 010(2), 011(3)
-> - b. <a href="https://www.codecogs.com/eqnedit.php?latex=EQ&space;=&space;(\bar{A_2}&space;\oplus&space;B_2)\cdot&space;(\bar{A_1}&space;\oplus&space;B_1)\cdot&space;(\bar{A_0}&space;\oplus&space;B_0)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?EQ&space;=&space;(\bar{A_2}&space;\oplus&space;B_2)\cdot&space;(\bar{A_1}&space;\oplus&space;B_1)\cdot&space;(\bar{A_0}&space;\oplus&space;B_0)" title="EQ = (\bar{A_2} \oplus B_2)\cdot (\bar{A_1} \oplus B_1)\cdot (\bar{A_0} \oplus B_0)" /></a>  
-> - c. <a href="https://www.codecogs.com/eqnedit.php?latex=GT&space;=&space;(\bar{A_2}&space;\cdot&space;B_2)&space;&plus;&space;(\bar{A_2}&space;\oplus&space;B_2)&space;\cdot&space;(A_1&space;\cdot&space;\bar{B_1})&space;&plus;&space;(\bar{A_2}\oplus&space;B_2)&space;\cdot&space;(\bar{A_1}&space;\oplus&space;B_1)&space;\cdot&space;(A_0&space;\cdot&space;\bar{B_0})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?GT&space;=&space;(\bar{A_2}&space;\cdot&space;B_2)&space;&plus;&space;(\bar{A_2}&space;\oplus&space;B_2)&space;\cdot&space;(A_1&space;\cdot&space;\bar{B_1})&space;&plus;&space;(\bar{A_2}\oplus&space;B_2)&space;\cdot&space;(\bar{A_1}&space;\oplus&space;B_1)&space;\cdot&space;(A_0&space;\cdot&space;\bar{B_0})" title="LT(\text{mirror of GT}) = (\bar{A_2} \cdot B_2) + (\bar{A_2} \oplus B_2) \cdot (A_1 \cdot \bar{B_1}) + (\bar{A_2}\oplus B_2) \cdot (\bar{A_1} \oplus B_1) \cdot (A_0 \cdot \bar{B_0})" /></a>  
-> - d. <a href="https://www.codecogs.com/eqnedit.php?latex=LT&space;=&space;(\bar{EQ}&space;\cdot&space;\bar{GT})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?LT&space;=&space;(\bar{EQ}&space;\cdot&space;\bar{GT})" title="GT(\text{mirror of LT}) = (\bar{EQ} \cdot \bar{GT})" /></a>  
-
+> - b1. $ EQ = (\bar{A_2} \oplus B_2)\cdot (\bar{A_1} \oplus B_1)\cdot (\bar{A_0} \oplus B_0) $ 
+> - b2. $ GT = (\bar{A_2} \cdot B_2) + (\bar{A_2} \oplus B_2) \cdot (A_1 \cdot \bar{B_1}) + (\bar{A_2}\oplus B_2) \cdot (\bar{A_1} \oplus B_1) \cdot (A_0 \cdot \bar{B_0})" $  
+> - b3. $ LT = (\bar{EQ} \cdot \bar{GT}) $
