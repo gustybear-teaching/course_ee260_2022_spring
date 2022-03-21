@@ -141,7 +141,7 @@ endmodule
 
 > - a. 100(-4), 101(-3), 111(-1), 010(2), 011(3)
 > - b1. $ EQ = (\bar{A_2} \oplus B_2)\cdot (\bar{A_1} \oplus B_1)\cdot (\bar{A_0} \oplus B_0) $ 
-> - b2. $ GT = (\bar{A_2} \cdot B_2) + 
+> - b2. $ GT = (\bar{A_2} \cdot B_2) + $
         $ \ \ \ \ (\bar{A_2} \oplus B_2) \cdot (A_1 \cdot \bar{B_1}) + $
         $ \ \ \ \ (\bar{A_2}\oplus B_2) \cdot (\bar{A_1} \oplus B_1) \cdot (A_0 \cdot \bar{B_0}) $
 > - b3. $ LT = (\bar{EQ} \cdot \bar{GT}) $
