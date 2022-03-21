@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Midterm 02 (Practice)"
 date: 2022-03-20
 type: book
