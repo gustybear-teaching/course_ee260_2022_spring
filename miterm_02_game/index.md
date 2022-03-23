@@ -1,5 +1,4 @@
 ---
-draft:false
 title: "Midterm 02"
 date: 2022-03-23
 type: book
