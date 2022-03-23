@@ -1,6 +1,7 @@
 ---
+draft:false
 title: "Midterm 02"
-date: 2022-03-24
+date: 2022-03-23
 type: book
 
 summary: "The exam for midterm 02, EE260, spring, 2022."
