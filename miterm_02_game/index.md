@@ -165,7 +165,7 @@ created in problem 3) into a controller, implementing the controller using a sta
  |  |
  |--|
 
-7) (5 pts) Let $ \mathbf{X} = X3 X2 X1 X0 $ denote the contents of register R, shown in this circuit, as a two’s complement number. After exactly two clock ticks, what is the contents of R?
+7) (5 pts) Let $ \mathbf{X} = \{X3, X2, X1, X0\} $ denote the contents of register R, shown in this circuit, as a two’s complement number. After exactly two clock ticks, what is the contents of R?
 
 | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2022_spring/main/miterm_02_game/images/problem_s7.png" width=400 >}} |
 | -- |
