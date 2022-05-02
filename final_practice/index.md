@@ -231,7 +231,7 @@ endmodule
 | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2022_spring/main/final_practice/images/short_problem_a.png" width=400 >}} |
 | -- |
 
-Fill in the following values. Use base-10 numbers. You are to assume that A=10112 and B=11012. Show all states up to and until "Waiting" is entered. If you can't determine a value, indicate that by writing an "X" in place of the value. 
+Fill in the following values. Use base-10 numbers. You are to assume that $ A={1011}_2 $ and $ B={1101}_2 $ . Show all states up to and until "Waiting" is entered. If you can't determine a value, indicate that by writing an "X" in place of the value. 
 
 Using only a few sentences, explain the simplest change(s) you can which would allow this multiplier to work correctly. This will be graded based on correctness, conciseness, simplicity and clarity of explanation.
 
