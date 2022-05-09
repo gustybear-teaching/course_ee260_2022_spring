@@ -139,12 +139,7 @@ end
  |  |
  |--|
 
-7) (10 pts) Converting a state transition diagram to logic. You are to assign state bits S[1:0] as 00 for state M, 11 for state R, and 01 for state T. You are to find logic equations for the next state (NS[1:0]) and the outputs (Y and Z) and put them all in project-of-sums form. Use K-maps to do the minimization. Clearly show your work and provide your final answer where shown. You don't care what happens if the machine somehow gets into state 10. 
-
-| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2022_spring/main/final_game/images/short_problem_7.png" width=500 >}} |
-| -- |
-
-8) (10 pts) Consider flip-flops A, B and C each nominally clocked off of the same clock. Assume:
+7) (10 pts) Consider flip-flops A, B and C each nominally clocked off of the same clock. Assume:
  - a. Each flip-flop has a set-up time of 5ns and a clock-to-Q delay of 3ns to 4ns,
  - b. The AND and OR gates each have a delay of 2 to 6 ns,
  - c. The NOT gate has a delay of 1 to 5 ns.
@@ -157,7 +152,7 @@ end
 | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2022_spring/main/final_game/images/short_problem_8.png" width=500 >}} |
 | -- |
 
-9) (10 pts) You wish to design a state machine that has one input "A" and one Moore-type output "Z". Z should be a 1 if and only if the last 6 values of A were "0". Due to budget cuts, you only have the following devices available:
+8) (10 pts) You wish to design a state machine that has one input "A" and one Moore-type output "Z". Z should be a 1 if and only if the last 6 values of A were "0". Due to budget cuts, you only have the following devices available:
 
  - a. 2-input gates of any standard type (AND, OR, NOR, NAND, XOR, and XNOR).
  - b. Inverters
